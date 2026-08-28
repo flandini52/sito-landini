@@ -679,6 +679,19 @@ p {
   font-weight: 800;
 }
 
+.check-list li {
+  padding: 8px 0;
+  color: var(--gray-700);
+  display: flex;
+  gap: 10px;
+}
+
+.check-list li::before {
+  content: "\2713";
+  color: var(--orange-500);
+  font-weight: 800;
+}
+
 /* ---------- Timeline (storia) ---------- */
 .timeline {
   position: relative;
