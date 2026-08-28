@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lavora con noi | Landini s.r.l.</title>
+<meta name="description" content="Landini s.r.l. cerca idraulici, elettricisti, frigoristi e maestranze edili. Candidature spontanee valutate tutto l'anno.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <a href="index.html" class="nav-brand">LANDINI <span style="color:var(--color-accent)">s.r.l.</span></a>
+  <div class="navlinks">
+    <a class="navlink" href="index.html">Home</a>
+    <a class="navlink" href="azienda.html">Azienda</a>
+    <a class="navlink" href="servizi.html">Servizi</a>
+    <a class="navlink" href="energy-management.html">Energy Management</a>
+    <a class="navlink" href="lavora-con-noi.html" aria-current="page">Lavora con noi</a>
+    <a class="navlink" href="contatti.html">Contatti</a>
+  </div>
+  <a href="contatti.html" class="btn btn-primary">Preventivo</a>
+</nav>
+
+<main>
+  <section class="section-hero">
+    <span class="eyebrow">Lavora con noi</span>
+    <h1 style="font-size:clamp(38px,5vw,64px);line-height:1.08;letter-spacing:-0.02em;margin:0 0 0 -0.035em">Cerchiamo tecnici che vogliano restare</h1>
+    <p class="jt text-muted" style="font-size:17px;line-height:28px;max-width:58ch;margin:28px 0 0">Idraulici, elettricisti, frigoristi e maestranze edili. Non pubblichiamo posizioni a scadenza: valutiamo le candidature spontanee tutto l'anno e chiamiamo quando si apre il posto giusto.</p>
+  </section>
+
+  <section class="section-split split split-66" style="align-items:stretch">
+    <figure style="margin:0;height:100%;min-height:340px;display:flex;flex-direction:column">
+      <img src="images/azienda/cena.jpeg" alt="La squadra Landini alla cena aziendale" style="width:100%;flex:1;min-height:0;object-fit:cover">
+      <figcaption style="margin-top:8px">La cena aziendale di fine anno.</figcaption>
+    </figure>
+    <div>
+      <h2 style="font-size:32px;line-height:42px;letter-spacing:-0.015em;margin:0 0 28px">Candidatura spontanea</h2>
+      <form data-mailto-subject="Candidatura spontanea dal sito">
+        <div class="field"><label for="c-nome">Nome e cognome</label><input class="input" id="c-nome" name="nome" required type="text"></div>
+        <div class="g2">
+          <div class="field"><label for="c-email">Email</label><input class="input" id="c-email" name="email" required type="email"></div>
+          <div class="field"><label for="c-tel">Telefono</label><input class="input" id="c-tel" name="telefono" type="tel"></div>
+        </div>
+        <div class="field"><label for="c-ruolo">Ruolo</label>
+          <select class="input" id="c-ruolo" name="ruolo">
+            <option>Idraulico</option>
+            <option>Elettricista</option>
+            <option>Frigorista / condizionamento</option>
+            <option>Muratore / edile</option>
+            <option>Tecnico d'ufficio</option>
+            <option>Altro</option>
+          </select>
+        </div>
+        <div class="field"><label for="c-esp">Esperienza e disponibilità</label><textarea class="input" id="c-esp" name="messaggio" placeholder="Dove hai lavorato, che patentini hai, da quando saresti disponibile"></textarea></div>
+        <button type="submit" class="btn btn-primary btn-block">Invia candidatura</button>
+        <p class="text-muted" style="font-size:13px;line-height:20px;margin:14px 0 0">Il modulo apre la tua applicazione di posta con i dati già compilati. Allega il curriculum prima di inviare.</p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <hr class="hr-thin" style="margin-bottom:28px">
+  <div class="footer-grid">
+    <div>
+      <span class="footer-brand">LANDINI <span style="color:var(--color-accent)">s.r.l.</span></span>
+      <p class="text-muted" style="margin:14px 0 0">Impianti idraulici, elettrici e di climatizzazione, opere edili. Manutenzione e cantieristica per aziende e pubblica amministrazione.</p>
+    </div>
+    <div>
+      <a class="navlink" href="azienda.html">Azienda</a>
+      <a class="navlink" href="servizi.html">Servizi</a>
+      <a class="navlink" href="energy-management.html">Energy Management</a>
+    </div>
+    <div>
+      <a class="navlink" href="lavora-con-noi.html">Lavora con noi</a>
+      <a class="navlink" href="contatti.html">Contatti</a>
+    </div>
+    <div class="text-muted">
+      Via G. Baldasseroni, 16 — 50136 Firenze<br>
+      055 690602 — 055 691238<br>
+      <a href="mailto:info@landinisrl.it">info@landinisrl.it</a>
+    </div>
+  </div>
+  <p class="footer-note">© <span id="current-year"></span> Landini s.r.l. — P.IVA/C.F. 04282280488 · REA FI 434453 · Cap. soc. € 15.000,00 int. vers. · SOA OG11 cl. II · ISO 9001:2015</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
